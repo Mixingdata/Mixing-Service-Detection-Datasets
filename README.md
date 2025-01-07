@@ -1,5 +1,5 @@
 
-This repository provides an example dataset for money laundering detection. Here are two CSV files:
+This repository provides an example dataset for mixing service detection. Here are two CSV files:
 
 1. bitcoinwalletall_address_features.csv: A list of features for Bitcoin addresses. The first 20 columns represent basic features of the address.
    The subsequent 18 columns represent enhanced features that provide additional insights into the address's behavior. The description of the basic features is as follows:
