@@ -1,4 +1,56 @@
 
+# One Core to Rule Them All: Learning Meta Features for Adaptive Mixing Service Detection
+
+This repository provides an example dataset for mixing service detection. Here are two CSV files:
+
+
+## bitcoinwalletall_address_features.csv
+
+A list of features for Bitcoin addresses. The first 20 columns represent basic features of the address. The subsequent 18 columns represent enhanced features that provide additional insights into the address's behavior. The description of the basic features is as follows:
+
+|  |  |
+|Feature|Description|
+| # Nodes (transactions) | 203,769 |
+| # Edges (money flow) | 234,355 |
+| # Time steps | 49 |
+| # Illicit (class-1) | 4,545 |
+| # Licit (class-2) | 42,019 |
+| # Unknown (class-3) | 157,205 |
+| # Features | 183 |
+
+Elliptic++ Actors (Wallet Addresses) Dataset:
+
+|  |  |
+|---|---|
+| total_transaction | The total number of transactions involving the address |
+| total_received | The total amount received by the address  |
+| total_sent | The total amount received by the address |
+| indegree | The in-degree of the address |
+| outdegree | The out-degree of the address |
+| total_address | The total number of second-order neighboring addresses of the address |
+| unique_address | The number of unique second-order neighboring addresses of the address |
+| redundant_address  | The number of duplicate second-order neighboring addresses of the address |
+| average_address_per_tx | The average number of second-order neighboring addresses of the address |
+| address_variance | The variance of  second-order neighboring addresses of the address |
+| average_indegree | The average in-degree of first-order neighboring transactions of the address |
+| indegree_variance | The variance in-degree of first-order neighboring transactions of the address |
+| average_outdegree | The average out-degree of first-order neighboring transactions of the address |
+| outdegree_variance | The variance out-degree of first-order neighboring transactions of the address |
+| income_to_expense_ratio | The ratio of income to expense |
+| total_income_expense | The total amount involved in all transactions of the address |
+| average_income_per_indegree | The average amount received by the address |
+| income_variance | The variance of the amount received by the address  |
+| average_expense_per_outdegree | The average amount sent by the address  |
+| expense_variance | The variance of the amount sent by the address  |
+
+
+
+
+**DATASET CAN BE FOUND HERE: [Google Drive](https://drive.google.com/drive/folders/1MRPXz79Lu_JGLlJ21MDfML44dKN9R08l?usp=sharing)**
+
+
+
+
 This repository provides an example dataset for mixing service detection. Here are two CSV files:
 
 1. bitcoinwalletall_address_features.csv: A list of features for Bitcoin addresses. The first 20 columns represent basic features of the address.
