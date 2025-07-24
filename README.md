@@ -1,5 +1,5 @@
 
-# One Core to Rule Them All: Learning Meta Features for Adaptive Mixing Service Detection
+# Meta-MSD: Adaptive Detection of Mixing Services in Cryptocurrency via Meta Feature Learning
 
 This repository provides an example dataset for mixing service detection. Here are two CSV files:
 
